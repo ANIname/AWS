@@ -1,0 +1,27 @@
+{
+  "name": "aniname-aws-services",
+  "version": "1.0.0",
+  "description": "ANIname services repository",
+  "scripts": {
+    "start:local": "sls offline"
+  },
+  "engines": {
+    "node": "14",
+    "npm": "6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANIname/AWS",
+    "bugs": "https://github.com/ANIname/AWS/issues",
+    "info": "https://github.com/ANIname/AWS#readme"
+  },
+  "author": {
+    "name": "KiiDii",
+    "email": "kiidii@aniname.com",
+    "url": "https://github.com/KiiDii"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^2.22.0"
+  }
+}
