@@ -1,13 +1,14 @@
 {
-  "name": "aniname-aws-services",
+  "name": "aniname-services",
   "version": "1.0.0",
   "description": "ANIname services repository",
   "scripts": {
-    "start:local": "sls offline"
+    "start": "sls offline",
+    "deploy": "sls deploy"
   },
   "engines": {
-    "node": "14",
-    "npm": "6"
+    "node": "12.x",
+    "npm": "6.x"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "serverless": "^2.22.0"
+    "serverless": "^2.22.0",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "directory-import": "^2.2.3"
   }
 }
