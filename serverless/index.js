@@ -1,4 +1,5 @@
 require('./environment');
+
 const functions   = require('./functions');
 const packageFile = require('../package');
 
