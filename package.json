@@ -27,6 +27,8 @@
     "serverless-offline": "^6.8.0"
   },
   "dependencies": {
-    "directory-import": "^2.2.3"
+    "directory-import": "^2.2.3",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20"
   }
 }

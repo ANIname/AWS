@@ -1,4 +1,4 @@
-require('./environment');
+require('../services/dotenv');
 
 const functions   = require('./functions');
 const packageFile = require('../package');
